@@ -1,0 +1,75 @@
+<html>
+  <head> </head>
+
+  <body>
+    <div class="header">
+      <div class="menu">
+        <div class="menu-button"><a href="index.html">Home</a></div>
+        <div class="menu-button"><a href="about_me.html">About Me</a></div>
+        <div class="menu-button selected">Fun With Forms</div>
+      </div>
+    </div>
+    <div class="content">
+      <h2>Fun With Forms</h2>
+      <form id="robot-form">
+        <input
+          type="text"
+          id="robot-text"
+          placeholder="Fluent in 6,000,000 languages"
+        />
+        <input type="submit" value="Beep beep, boop" />
+        <div class="robot-answer"></div>
+      </form>
+    </div>
+  </body>
+  <style>
+    body {
+      background: #ffb6c1;
+      color: #f06291;
+      font: 1.2em verdana, sans-serif;
+    }
+
+    div.header {
+      background-image: url(../images/bubbles.jpg);
+      height: 150px;
+      width: 750px;
+      margin: auto;
+      position: relative;
+      color: #ff99bb;
+      overflow: hidden;
+    }
+
+    div.menu {
+      position: absolute;
+      bottom: -19px;
+      left: 10px;
+    }
+
+    div.menu div.menu-button {
+      background-color: #ff99bb;
+      display: inline-block;
+      width: 195px;
+      height: 40px;
+      padding: 10px;
+      text-align: center;
+      border-radius: 20px;
+    }
+
+    div.menu div.menu-button.selected {
+      background-color: #ffeefd;
+    }
+
+    div.menu div.menu-button a {
+      color: #ffeefd;
+      text-decoration: none;
+    }
+
+    div.content {
+      width: 718px;
+      min-height: 300px;
+      margin: auto;
+      background: #ffeef5;
+      padding: 1px 16px;
+    }
+  </style>
+</html>

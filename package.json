@@ -1,0 +1,13 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "This is a static template with no bundling",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codesandbox-app/static-template.git"
+  },
+  "keywords": ["static", "template", "codesandbox"],
+  "author": "Ives van Hoorne",
+  "license": "MIT"
+}
